@@ -1,0 +1,17 @@
+/* responsive for mobile */
+@media screen and (max-width: 576px) {
+  /* nav */
+  .nav-container,
+  nav,
+  ul {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  ul li {
+    margin-top: 2rem;
+  }
+  .nav-link {
+    padding: 0.5rem;
+  }
+}

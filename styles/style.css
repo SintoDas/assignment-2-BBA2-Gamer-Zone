@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Handlee&family=Lato:wght@300;400;700;900&family=Open+Sans:wght@400;700;800&family=Poppins:ital,wght@0,900;1,900&family=Roboto&family=Satisfy&family=Work+Sans:wght@400;500;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1920px;
+  padding: 2.25rem 4rem;
+  margin: 0 auto;
+  /* margin: 0 auto; */
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.nav-logo img {
+  width: 90px;
+  object-fit: cover;
+  margin-right: 1.25rem;
+}
+nav > ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #3c354f;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-right: 1rem;
+}
+.nav-link {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 1rem 1.2rem;
+}
+.nav-title {
+  color: #0b0223;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.nav-mark {
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
