@@ -5,7 +5,9 @@
   nav,
   ul,
   .gamer-container,
-  .play-container {
+  .play-container,
+  .services-container,
+  .conditions-container {
     flex-direction: column;
     text-align: center;
     margin-top: 1rem;
@@ -27,6 +29,12 @@
 
   .gamer-description {
     margin: 0.5rem;
+  }
+  .social-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 90px);
+    justify-content: center;
+    gap: 10px;
   }
   .games {
     display: grid;
@@ -58,7 +66,10 @@
   /* game type container */
   .game-type-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 1rem auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 25px;
+    width: 100%;
   }
+  /* footer */
 }
