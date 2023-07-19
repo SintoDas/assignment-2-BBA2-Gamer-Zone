@@ -186,3 +186,48 @@ nav ul li a {
   width: 100%;
   margin-top: 0.5rem;
 }
+/* play-container */
+.play-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1.5rem 4rem;
+}
+.play-description {
+  width: 30%;
+  text-align: center;
+  margin-right: 2rem;
+}
+.play-img,
+.play-img-2 {
+  position: relative;
+}
+.fixed-img {
+  width: 100%;
+}
+.positioning-img {
+  position: absolute;
+  border-radius: 8px;
+  border: 10px solid #fff;
+  background: lightgray 0px -0.304px / 100% 117.229% no-repeat;
+  width: 50%;
+  bottom: -10%;
+  right: 70%;
+}
+.online-play {
+  margin-top: 8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.fixed-img-2 {
+  width: 90%;
+}
+.positioning-img-2 {
+  position: absolute;
+  border-radius: 8px;
+  border: 10px solid #fff;
+  background: lightgray 0px -0.304px / 100% 117.229% no-repeat;
+  width: 40%;
+  bottom: -10%;
+  left: 70%;
+}

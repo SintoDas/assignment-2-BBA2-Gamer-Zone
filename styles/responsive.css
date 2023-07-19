@@ -4,11 +4,27 @@
   .nav-container,
   nav,
   ul,
-  .gamer-container {
+  .gamer-container,
+  .play-container {
     flex-direction: column;
     text-align: center;
     margin-top: 1rem;
   }
+  .online-play {
+    flex-direction: column-reverse;
+  }
+  .play-description {
+    width: 100%;
+  }
+  .play-img {
+    margin-left: 4rem;
+    margin-top: 1rem;
+  }
+  .play-img-2 {
+    margin-right: 4rem;
+    margin-top: 1rem;
+  }
+
   .gamer-description {
     margin: 0.5rem;
   }
@@ -28,7 +44,8 @@
     flex-direction: column-reverse;
   }
   .banner-img img,
-  .gamer-img img {
+  .gamer-img img,
+  .play-description {
     width: 100%;
     margin: 1rem auto;
   }
