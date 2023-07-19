@@ -214,6 +214,7 @@ nav ul li a {
   bottom: -10%;
   right: 70%;
 }
+/* optional container */
 .online-play {
   margin-top: 8rem;
   margin-left: 1rem;
@@ -230,4 +231,42 @@ nav ul li a {
   width: 40%;
   bottom: -10%;
   left: 70%;
+}
+/* game-type-container */
+.game-type-container {
+  background: (
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin: 5rem 2rem;
+  gap: 1rem;
+}
+.icon {
+  display: flex;
+  margin-left: 1rem;
+}
+.icon:hover {
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #ff42a5;
+  border-radius: 50px;
+}
+.icon img {
+  width: 3.75rem;
+  height: 3.75rem;
+  padding: 0.5rem;
+}
+.icon p {
+  padding: 1.25rem;
+  color: #0b0223;
+  font-size: 1.25;
+  font-weight: 600;
 }

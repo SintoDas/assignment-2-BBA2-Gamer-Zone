@@ -55,4 +55,10 @@
     margin: 0.5rem 1rem;
     text-align: center;
   }
+  /* game type container */
+  .game-type-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem auto;
+  }
 }
