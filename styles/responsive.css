@@ -3,10 +3,19 @@
   /* nav */
   .nav-container,
   nav,
-  ul {
+  ul,
+  .gamer-container {
     flex-direction: column;
     text-align: center;
     margin-top: 1rem;
+  }
+  .gamer-description {
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+  .games {
+    display: grid;
+    grid-template-columns: 1fr;
   }
   ul li {
     margin-top: 2rem;
@@ -19,12 +28,15 @@
   .banner-container {
     flex-direction: column-reverse;
   }
-  .banner-img img {
+  .banner-img img,
+  .gamer-img img {
     width: 100%;
     margin: 1rem auto;
   }
-  .banner-content {
+  .banner-content,
+  .gamer-description {
     width: 100%;
     margin: 0.5rem 1rem;
+    text-align: center;
   }
 }
