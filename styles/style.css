@@ -5,12 +5,21 @@
   box-sizing: border-box;
   font-family: "Fira Sans", sans-serif;
 }
+/* shared style  */
+.btn {
+  border-radius: 3rem;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  padding: 1rem 2.25rem;
+  border: none;
+  margin-top: 0.5rem;
+}
+/* nav start */
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1920px;
-  padding: 2.25rem 4rem;
+  padding: 2rem 4rem;
   margin: 0 auto;
   /* margin: 0 auto; */
   background: #fff;
@@ -53,4 +62,57 @@ nav ul li a {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+/* nav end */
+/* banner section */
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  background-image: linear-gradient(
+      223deg,
+      rgba(140, 87, 238, 0.03) 0%,
+      rgba(241, 68, 174, 0.03) 100%
+    ),
+    url("../images/Group 14.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover 5%;
+}
+.banner-content {
+  width: 50%;
+  padding-left: 4rem;
+}
+
+.banner-img img {
+  width: 100%;
+  padding: 1rem;
+  height: 100%;
+}
+.banner-title {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+.banner-mark {
+  font-size: 6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-para {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+.rouge-btn {
+  background: #4ec5f7;
 }
