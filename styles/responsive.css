@@ -69,3 +69,72 @@
     text-align: center;
   }
 }
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .nav-container,
+  nav,
+  .gamer-container,
+  .play-container,
+  .services-container,
+  .conditions-container {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .online-play {
+    flex-direction: column-reverse;
+  }
+  .play-description {
+    width: 100%;
+  }
+  .play-img {
+    margin-left: 4rem;
+    margin-top: 1rem;
+  }
+  .play-img-2 {
+    margin-right: 4rem;
+    margin-top: 1rem;
+  }
+
+  .gamer-description {
+    margin: 0.5rem;
+  }
+  .game-type-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .social-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 90px);
+    justify-content: center;
+    gap: 10px;
+  }
+  .games {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+  ul li {
+    margin-top: 2rem;
+  }
+  .nav-link {
+    padding: 0.5rem;
+  }
+
+  /* banner section */
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-img img,
+  .gamer-img img,
+  .play-description {
+    width: 100%;
+    margin: 1rem auto;
+  }
+  .banner-content,
+  .gamer-description {
+    width: 100%;
+    margin: 0.5rem 1rem;
+    text-align: center;
+  }
+}
