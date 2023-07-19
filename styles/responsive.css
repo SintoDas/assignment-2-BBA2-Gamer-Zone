@@ -30,6 +30,11 @@
   .gamer-description {
     margin: 0.5rem;
   }
+  .game-type-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0.5;
+  }
   .social-icons {
     display: grid;
     grid-template-columns: repeat(3, 90px);
@@ -63,13 +68,4 @@
     margin: 0.5rem 1rem;
     text-align: center;
   }
-  /* game type container */
-  .game-type-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    gap: 25px;
-    width: 100%;
-  }
-  /* footer */
 }
