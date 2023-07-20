@@ -112,7 +112,7 @@
   }
   .games {
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: repeat(2, 1fr);
   }
   ul li {
     margin-top: 2rem;
