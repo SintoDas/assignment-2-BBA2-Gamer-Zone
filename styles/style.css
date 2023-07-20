@@ -106,9 +106,8 @@ nav ul li a {
       rgba(241, 68, 174, 0.03) 100%
     ),
     url("../images/Group 14.png");
-  background-position: left bottom;
+  z-index: 1;
   background-repeat: no-repeat;
-  background-size: cover 5%;
 }
 .banner-content {
   width: 50%;
@@ -218,7 +217,7 @@ nav ul li a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(172, 109, 109, 0.7);
+  background-color: rgba(198, 42, 42, 0.7);
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -227,7 +226,6 @@ nav ul li a {
   opacity: 0; /* Hide the button initially */
   transition: opacity 0.3s ease;
 }
-
 .game:hover .hidden-button {
   opacity: 1;
 }
@@ -285,21 +283,20 @@ nav ul li a {
 }
 /* game-type-container */
 .game-type-container {
-  background: (
-    90deg,
-    rgba(255, 66, 165, 0.03) 0%,
-    rgba(255, 66, 165, 0.03) 100%
-  );
+  margin: 5rem auto 2rem;
+}
+
+.game-type-content {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  justify-items: center;
-  align-items: center;
-  gap: 0.5rem;
-  margin: 5rem 1rem;
-  max-width: 1200;
+  gap: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 .icon {
   display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 .icon:hover {
   background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
@@ -310,8 +307,8 @@ nav ul li a {
   border-radius: 50px;
 }
 .icon img {
-  width: 50%;
-  height: 50%;
+  width: 2rem;
+  height: 2rem;
 }
 .icon p {
   color: #0b0223;
@@ -368,11 +365,9 @@ footer {
 .social-icon {
   display: inline-block;
   font-size: 1.5rem;
-  color: #333;
   text-align: center;
-  width: 40px;
-  height: 40px;
-  background-color: #ccc;
+  width: 60px;
+  height: 50px;
   border-radius: 50%;
   margin-top: 0.5rem;
   margin: 0.5rem;

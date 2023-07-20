@@ -30,7 +30,7 @@
   .gamer-description {
     margin: 0.5rem;
   }
-  .game-type-container {
+  .game-type-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
